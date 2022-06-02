@@ -12,11 +12,6 @@ def db():
     db.close()
 
 
-# def teardown_module(module):
-#     print('---------teardown----------')
-#     db.close()
-
-
 def test_scott_data(db):
 
     scott_data = db.get_data('Scott')
